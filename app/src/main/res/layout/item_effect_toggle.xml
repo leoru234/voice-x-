@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:background="@drawable/selector_effect_toggle"
+    android:clickable="true"
+    android:focusable="true">
+
+    <Switch
+        android:id="@+id/switchEffect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumbTint="@color/accent_cyan"
+        android:trackTint="@color/bg_dark" />
+
+    <TextView
+        android:id="@+id/tvEffectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EFFECT"
+        android:textSize="11sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/text_dim"
+        android:layout_marginStart="8dp" />
+</LinearLayout>
