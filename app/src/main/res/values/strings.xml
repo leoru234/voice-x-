@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceX</string>
+    <string name="status_ready">● READY</string>
+    <string name="status_active">● PROCESSING</string>
+    <string name="tap_to_start">TAP TO START</string>
+    <string name="mic_active">ACTIVE — VOICE CHANGING</string>
+    <string name="call_mode">📞  CALL MODE</string>
+    <string name="game_mode">🎮  GAME MODE</string>
+    <string name="notification_channel_name">VoiceX Voice Changer</string>
+</resources>
